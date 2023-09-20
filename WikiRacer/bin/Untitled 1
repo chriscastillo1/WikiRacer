@@ -1,0 +1,40 @@
+MaxPQ test = new MaxPQ();
+		
+		List<String> one = new ArrayList();
+		one.add("I am number one with priority 3");
+		
+		List<String> two = new ArrayList();
+		two.add("I am number two with priority 10");
+		
+		List<String> three = new ArrayList();
+		three.add("I am number three with priority 7");
+		
+		List<String> four = new ArrayList();
+		four.add("I am number four with priority 4");
+		
+		List<String> five = new ArrayList();
+		five.add("I am number five with priority 4");
+		
+		test.enqueue(one, 3);
+		test.enqueue(two, 10);
+		test.enqueue(three, 7);
+		test.enqueue(four, 4);
+		test.enqueue(five, 4);
+		
+		System.out.println(test);
+		
+		System.out.println(test.dequeue());
+		
+		System.out.println(test);
+		
+		System.out.println(test.dequeue());
+		
+		System.out.println(test);
+		
+		System.out.println(test.dequeue());
+		
+		System.out.println(test);
+		
+		System.out.println(test.dequeue());
+		
+		System.out.println(test);
